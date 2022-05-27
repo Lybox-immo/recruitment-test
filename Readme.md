@@ -49,8 +49,17 @@ sequence. After the join point, the sequences are equal.
 
 An example of two sequences joining at `519`.
 
+
 Implement the function `ComputeJoinPoint(s1 int, s2 int) int` which takes the starting points
 of two sequences and then returns the join point of these sequences.
+
+
+
+ComputeJoinPoint(480, 471) should return 519
+
+ComputeJoinPoint(471, 492) should return 519
+
+ComputeJoinPoint(480, 483) should return 519
 
 
 Constraints:
